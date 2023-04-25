@@ -91,26 +91,26 @@ Feature Transformation - Data_to_Transform.csv
 
 ![image](https://user-images.githubusercontent.com/119122478/234178367-0bf71825-9b22-4366-8079-efa0b9963b21.png)
 
-Log Transformation
+# Log Transformation
 
 ![image](https://user-images.githubusercontent.com/119122478/234178512-67e6e180-ed44-476c-824a-da68fc4702b1.png)
 
-Reciprocal Transformation
+# Reciprocal Transformation
 
 
 ![image](https://user-images.githubusercontent.com/119122478/234178642-33922ef4-e794-4d56-87b5-3053c18980a0.png)
 
-SquareRoot Transformation
+# SquareRoot Transformation
 
 ![image](https://user-images.githubusercontent.com/119122478/234178775-1c075ce2-09ae-4055-8192-bb7cb8d6b8da.png)
 
-Power Transformation
+# Power Transformation
 
 ![image](https://user-images.githubusercontent.com/119122478/234178882-210574f4-a103-46f4-bab2-26fcd506b1de.png)
 
 ![image](https://user-images.githubusercontent.com/119122478/234178951-f79cc66e-2270-4d7c-b1f4-87d4281039c7.png)
 
-Quantile Transformation
+# Quantile Transformation
 
 ![image](https://user-images.githubusercontent.com/119122478/234179043-01875620-2866-43d8-b4f1-2b4c9c5b56e8.png)
 
