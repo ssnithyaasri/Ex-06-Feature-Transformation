@@ -2,10 +2,10 @@
 AIM:
 To read the given data and perform Feature Transformation process and save the data to a file.
 
-EXPLANATION:
+# EXPLANATION:
 Feature Transformation is a technique by which we can boost our model performance. Feature transformation is a mathematical transformation in which we apply a mathematical formula to a particular column(feature) and transform the values which are useful for our further analysis.
 
-ALGORITHM:
+# ALGORITHM:
 STEP 1
 Read the given Data
 
@@ -19,7 +19,7 @@ STEP 4
 Save the data to the file
 
 
-CODE:
+# CODE:
 
 ```
 
@@ -77,7 +77,7 @@ plt.show()
 
 ```
 
-Output
+# Output
 
 Feature Transformation - Data_to_Transform.csv
 
@@ -114,7 +114,7 @@ Quantile Transformation
 
 ![image](https://user-images.githubusercontent.com/119122478/234179043-01875620-2866-43d8-b4f1-2b4c9c5b56e8.png)
 
-RESULT:
+# RESULT:
 Thus the Feature Transformation for the given datasets had been executed successfully.
 
 
