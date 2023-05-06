@@ -39,41 +39,54 @@ df.head()
 df.isnull().sum()
 df.info()
 df.describe()
+
 df1 = df.copy()
-sm.qqplot(df1.Highly Positive Skew,fit=True,line='45')
+sm.qqplot(df1['Highly Positive Skew'],fit=True,line='45')
 plt.show()
-sm.qqplot(df1.Highly Negative Skew,fit=True,line='45')
+
+sm.qqplot(df1['Highly Negative Skew'],fit=True,line='45')
 plt.show()
-sm.qqplot(df1.Moderate Positive Skew,fit=True,line='45')
+
+sm.qqplot(df1['Moderate Positive Skew'],fit=True,line='45')
 plt.show()
-sm.qqplot(df1.Moderate Negative Skew,fit=True,line='45')
+
+sm.qqplot(df1['Moderate Negative Skew'],fit=True,line='45')
 plt.show()
-df1['Highly Positive Skew'] = np.log(df1.Highly Positive Skew)
-sm.qqplot(df1.Highly Positive Skew,fit=True,line='45')
+
+df1['Highly Positive Skew'] = np.log(df1['Highly Positive Skew'])
+sm.qqplot(df1['Highly Positive Skew'],fit=True,line='45')
 plt.show()
+
 df2 = df.copy()
-df2['Highly Positive Skew'] = 1/df2.Highly Positive Skew
-sm.qqplot(df2.Highly Positive Skew,fit=True,line='45')
+df2['Highly Positive Skew'] = 1/df2['Highly Positive Skew']
+sm.qqplot(df2['Highly Positive Skew'],fit=True,line='45')
 plt.show()
+
 df3 = df.copy()
-df3['Highly Positive Skew'] = df3.Highly Positive Skew**(1/1.2)
-sm.qqplot(df2.Highly Positive Skew,fit=True,line='45')
+df3['Highly Positive Skew'] = df3['Highly Positive Skew']**(1/1.2)
+sm.qqplot(df2['Highly Positive Skew'],fit=True,line='45')
 plt.show()
+
 df4 = df.copy()
-df4['Moderate Positive Skew_1'],parameters =stats.yeojohnson(df4.Moderate Positive Skew)
-sm.qqplot(df4.Moderate Positive Skew_1,fit=True,line='45')
+df4['Moderate Positive Skew_1'],parameters =stats.yeojohnson(df4['Moderate Positive Skew'])
+sm.qqplot(df4['Moderate Positive Skew_1'],fit=True,line='45')
 plt.show()
+
 from sklearn.preprocessing import PowerTransformer 
 trans = PowerTransformer("yeo-johnson")
 df5 = df.copy()
-df5['Moderate Negative kew_1'] = pd.DataFrame(trans.fit_transform(df5[['Moderate Negative Skew']]))
+df5['Moderate Negative Skew_1'] = pd.DataFrame(trans.fit_transform(df5[['Moderate Negative Skew']]))
 sm.qqplot(df5['Moderate Negative Skew_1'],line='45')
 plt.show()
+
 from sklearn.preprocessing import QuantileTransformer
 qt = QuantileTransformer(output_distribution = 'normal')
 df5['Moderate Negative Skew_2'] = pd.DataFrame(qt.fit_transform(df5[['Moderate Negative Skew']]))
 sm.qqplot(df5['Moderate Negative Skew_2'],line='45')
 plt.show()
+
+
+
 
 ```
 
@@ -81,15 +94,16 @@ plt.show()
 
 Feature Transformation - Data_to_Transform.csv
 
-![image](https://user-images.githubusercontent.com/119122478/234178019-7e05c65b-ed99-4e46-bf50-1b84a93fe0ba.png)
+![image](https://user-images.githubusercontent.com/119122478/236634316-68903489-2322-44f2-b500-7b861c33de89.png)
 
-![image](https://user-images.githubusercontent.com/119122478/234178099-c6dd8a0b-2bd0-46dc-89b0-858f6dda90a8.png)
+![image](https://user-images.githubusercontent.com/119122478/236634340-3d88369f-ca3d-4229-9118-8bde52bf2804.png)
 
-![image](https://user-images.githubusercontent.com/119122478/234178176-b027859e-2f71-4924-9baa-4fa619075679.png)
 
-![image](https://user-images.githubusercontent.com/119122478/234178247-311eaaf0-475b-4fc9-9cb7-001af41da8fe.png)
+![image](https://user-images.githubusercontent.com/119122478/236634372-c4fb030a-a34b-4636-91a4-a3e0c368ceda.png)
 
-![image](https://user-images.githubusercontent.com/119122478/234178367-0bf71825-9b22-4366-8079-efa0b9963b21.png)
+![image](https://user-images.githubusercontent.com/119122478/236634394-4f375b22-52b0-48f7-8b5a-6bdfcad94a6c.png)
+
+![image](https://user-images.githubusercontent.com/119122478/236634419-6eaab676-d652-41e8-be77-fc3676648f6e.png)
 
 # Log Transformation
 
