@@ -105,28 +105,18 @@ Feature Transformation - Data_to_Transform.csv
 
 ![image](https://user-images.githubusercontent.com/119122478/236634419-6eaab676-d652-41e8-be77-fc3676648f6e.png)
 
-# Log Transformation
+#BEFORE TRANSFORMATION
 
-![image](https://user-images.githubusercontent.com/119122478/234178512-67e6e180-ed44-476c-824a-da68fc4702b1.png)
+![image](https://user-images.githubusercontent.com/119122478/236634943-1c87a117-ef7a-4e82-bf0d-2f7160714a60.png)
 
-# Reciprocal Transformation
+![image](https://user-images.githubusercontent.com/119122478/236634968-735881dc-d078-49df-a02f-ff00e44a90b2.png)
 
+![image](https://user-images.githubusercontent.com/119122478/236634993-90468352-61d6-4500-87b7-ea4adaab4490.png)
 
-![image](https://user-images.githubusercontent.com/119122478/234178642-33922ef4-e794-4d56-87b5-3053c18980a0.png)
+![image](https://user-images.githubusercontent.com/119122478/236635015-c829cbf1-fdd9-4d73-9871-0fd35fd5a6a5.png)
 
-# SquareRoot Transformation
+![image](https://user-images.githubusercontent.com/119122478/236635031-5eebc473-624d-4311-bc4b-6be75b964022.png)
 
-![image](https://user-images.githubusercontent.com/119122478/234178775-1c075ce2-09ae-4055-8192-bb7cb8d6b8da.png)
-
-# Power Transformation
-
-![image](https://user-images.githubusercontent.com/119122478/234178882-210574f4-a103-46f4-bab2-26fcd506b1de.png)
-
-![image](https://user-images.githubusercontent.com/119122478/234178951-f79cc66e-2270-4d7c-b1f4-87d4281039c7.png)
-
-# Quantile Transformation
-
-![image](https://user-images.githubusercontent.com/119122478/234179043-01875620-2866-43d8-b4f1-2b4c9c5b56e8.png)
 
 # RESULT:
 Thus the Feature Transformation for the given datasets had been executed successfully.
