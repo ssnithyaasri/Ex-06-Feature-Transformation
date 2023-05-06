@@ -105,7 +105,7 @@ Feature Transformation - Data_to_Transform.csv
 
 ![image](https://user-images.githubusercontent.com/119122478/236634419-6eaab676-d652-41e8-be77-fc3676648f6e.png)
 
-#BEFORE TRANSFORMATION
+# BEFORE TRANSFORMATION
 
 ![image](https://user-images.githubusercontent.com/119122478/236634943-1c87a117-ef7a-4e82-bf0d-2f7160714a60.png)
 
@@ -116,6 +116,30 @@ Feature Transformation - Data_to_Transform.csv
 ![image](https://user-images.githubusercontent.com/119122478/236635015-c829cbf1-fdd9-4d73-9871-0fd35fd5a6a5.png)
 
 ![image](https://user-images.githubusercontent.com/119122478/236635031-5eebc473-624d-4311-bc4b-6be75b964022.png)
+
+# LOG TRANSFORMATION
+
+
+![image](https://user-images.githubusercontent.com/119122478/236635219-d665c7ea-bc64-4a43-aefc-6393671c9806.png)
+
+# RECIPROCAL TRANSFORMATION
+
+![image](https://user-images.githubusercontent.com/119122478/236635320-cf0c7f16-9705-47cd-bef7-c35c28703421.png)
+
+# SQAURE RROT TRANSFORMATION
+
+![image](https://user-images.githubusercontent.com/119122478/236635377-86425718-36c8-4386-971c-e9132b09a64e.png)
+![image](https://user-images.githubusercontent.com/119122478/236635394-898c2cbd-2816-493d-ad56-ff624a369897.png)
+
+# POWER TRANSFORMATION
+
+![image](https://user-images.githubusercontent.com/119122478/236635431-53492f8a-bcfe-48ca-bb33-da3de356e608.png)
+
+# QUANTILE TRANSFORMATION
+
+![image](https://user-images.githubusercontent.com/119122478/236635487-b3415fe0-9961-4807-b9c5-dcf1b7318aa7.png)
+
+
 
 
 # RESULT:
